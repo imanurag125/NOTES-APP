@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Notes APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <input placeholder="Title" id="title" class="title" type="text" />
+
+      <textarea
+        name="notes"
+        id="notes"
+        class="notes"
+        cols="30"
+        rows="10"
+        placeholder="Write a note"
+      ></textarea>
+      <button id="btn" class="btn add--btn">Add Notes</button>
+    </div>
+    <h1 class="notes__heading">Your Notes</h1>
+    <div class="" id="notes-container"></div>
+    <h1 class="delete__heading">Deleted Notes</h1>
+    <div class="" id="deleted__notes-container"></div>
+    <h2 class="notes__heading">Archived Notes</h2>
+    <div class="" id="archived__notes-container"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
